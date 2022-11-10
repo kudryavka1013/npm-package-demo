@@ -1,0 +1,30 @@
+{
+  "name": "hello-npm-pkg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kudryavka1013/npm-package-demo.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kudryavka1013/npm-package-demo/issues"
+  },
+  "homepage": "https://github.com/kudryavka1013/npm-package-demo#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
